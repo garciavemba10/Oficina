@@ -1,0 +1,6 @@
+.footer { padding: 32px 0 96px; background: var(--black); border-top: 2px solid var(--red); text-align: center; }
+.footer__inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.footer p { color: var(--muted); font-size: .9rem; }
+.whatsapp-float { position: fixed; right: 18px; bottom: 18px; z-index: 30; padding: 14px 22px; border-radius: 40px; background: #0b7a3b; color: var(--white); font-weight: 700; text-decoration: none; box-shadow: 0 4px 16px rgba(0,0,0,.4); }
+.toast { position: fixed; left: 50%; bottom: 88px; z-index: 40; width: min(420px, 100% - 32px); padding: 14px 18px; border-left: 4px solid var(--red); border-radius: 6px; background: var(--white); color: var(--dark); box-shadow: 0 6px 24px rgba(0,0,0,.35); transform: translateX(-50%); opacity: 0; visibility: hidden; transition: opacity .25s, visibility .25s; }
+.toast.is-visible { opacity: 1; visibility: visible; }
