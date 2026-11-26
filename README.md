@@ -3,8 +3,6 @@
 # Repositório Oficina
 
 
-### Backend & Database Developer in evolution · Cybersecurity Exploring
-
 <img src="imagens/Logo.jpg" alt="Logo">
 
 **WAYAMA AUTOMÓVEIS**
