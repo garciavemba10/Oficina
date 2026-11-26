@@ -25,7 +25,7 @@ Manutenção
    ↓
 Diagnóstico
    ↓
-Cybersecurity
+Reparação
 ```
 
 TÍTULO PRICIPAL **Cuidamos do seu carro para que você não pare**.
