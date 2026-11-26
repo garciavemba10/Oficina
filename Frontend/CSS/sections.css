@@ -80,3 +80,6 @@ html:has(.modal[open]) { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
     .modal, .modal::backdrop { animation-duration: .01ms !important; }
 }
+
+.contacts a { color: inherit; text-decoration: none; }
+.contacts a:hover { color: var(--red); }

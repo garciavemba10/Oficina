@@ -1,8 +1,8 @@
 // CONTACTOS: preencher no fim. Deixar "" enquanto não estiver definido.
 const CONFIG = {
-    whatsapp: "", // só dígitos, com o indicativo: "244XXXXXXXXX"
-    telefone: "", // ex.: "+244XXXXXXXXX"
-    mapa: "",     // link do Google Maps
+    whatsapp: "", // fica para o fim
+    telefone: "+244 935 982 776",
+    mapa: "https://www.google.com/maps/search/?api=1&query=Gamek+Morro+Bento+Luanda",
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -58,7 +58,7 @@ $("[data-map]").addEventListener("click", (e) => {
     if (CONFIG.mapa) abrir(CONFIG.mapa);
     else aviso("A localização da oficina será disponibilizada em breve.");
 });
-if (CONFIG.telefone) $("#c-telefone").textContent = CONFIG.telefone;
+
 if (CONFIG.whatsapp) $("#c-whatsapp").textContent = `+${CONFIG.whatsapp}`;
 
 // Check-up
