@@ -5,7 +5,7 @@
 
 ### Backend & Database Developer in evolution · Cybersecurity Exploring
 
-<img src="Logo.jpg" alt="Logo">
+<img src="imagens/Logo.jpg" alt="Logo">
 
 **WAYAMA AUTOMÓVEIS**
 
