@@ -1,16 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oficina</title>
+    <meta name="description" content="Manutenção, diagnóstico e reparação automóvel na WAYAMA Automóveis.">
+    <title>WAYAMA Automóveis | Oficina Automóvel</title>
+    <link rel="icon" href="img/simbolo.png">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/hero.css">
     <link rel="stylesheet" href="CSS/sections.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <script src="JS/script.js" defer></script>
 </head>
 <body>
-    
+
+    <div id="preloader" class="preloader" role="status" aria-label="A carregar">
+    <div class="preloader__symbol">
+        <img src="img/simbolo.png" alt="">
+        <img src="img/simbolo.png" alt="">
+    </div>
+    <p class="preloader__name" aria-hidden="true"><span style="--i:0">W</span><span style="--i:1">A</span><span style="--i:2">Y</span><span style="--i:3">A</span><span style="--i:4">M</span><span style="--i:5">A</span></p>
+    <p class="preloader__sub" aria-hidden="true">AUTOMÓVEIS</p>
+    <div class="preloader__bar"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="container navbar__inner">
+            <a href="#inicio" class="brand">
+                <img src="img/simbolo.png" alt="">
+                <span><strong>WAYAMA</strong><small>AUTOMÓVEIS</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+            <nav id="menu" class="menu" aria-label="Principal">
+                <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#checkup">Check-up</a></li>
+                <li><a href="#processo">Como funciona</a></li>
+                <li><a href="#porque">Porquê nós</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+                </ul>
+                <a href="#avaliacao" class="btn btn--primary">Pedir avaliação</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero__inner">
+                <div>
+                    <p class="hero__tag">Manutenção · Diagnóstico · Reparação</p>
+                    <h1>Cuidamos do seu carro <em>para que você não pare</em>.</h1>
+                    <p class="hero__text">Na WAYAMA Automóveis prestamos serviços de manutenção, diagnóstico e reparação automóvel, com foco na qualidade, segurança e confiança.</p>
+                    <div class="actions">
+                        <a href="#contactos" class="btn btn--primary" data-whatsapp="Olá! Gostaria de falar com a oficina.">Falar pelo WhatsApp</a>
+                        <a href="#contactos" class="btn btn--outline" data-call>Ligar para a oficina</a>
+                        <a href="#contactos" class="btn btn--outline" data-map>Como chegar à oficina</a>
+                    </div>
+                </div>
+                <img class="hero__logo" src="img/logo.png" alt="Logótipo WAYAMA Automóveis" width="447" height="264">
+            </div>
+        </section>
+
+        <section id="servicos" class="section section--light">
+            <div class="container">
+                <h2>Os nossos serviços</h2>
+                <p class="lead">Toque num serviço para ver o que está incluído.</p>
+                <div class="services">
+                <details class="service" open>
+                    <summary>Manutenção preventiva</summary>
+                    <ul><li>Troca de óleo e filtros</li><li>Troca de pastilhas e discos</li><li>Revisão da suspensão</li><li>Verificação de fluidos</li><li>Revisão geral do veículo</li><li>Manutenção do sistema de arrefecimento</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Manutenção correctiva</summary>
+                    <ul><li>Identificação e correcção de avarias</li><li>Reparação de componentes</li><li>Substituição de peças</li><li>Correcção de falhas mecânicas</li><li>Reparação de sistemas eléctricos</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Diagnóstico automóvel</summary>
+                    <ul><li>Diagnóstico computadorizado</li><li>Leitura e eliminação de códigos de avaria</li><li>Diagnóstico de problemas electrónicos</li><li>Verificação de sensores</li><li>Diagnóstico do motor e da transmissão</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Reparação de motor</summary>
+                    <ul><li>Diagnóstico de falhas do motor</li><li>Reparação de componentes</li><li>Junta da cabeça</li><li>Sistema de distribuição</li><li>Revisão e reparação do motor</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Caixa de velocidades</summary>
+                    <ul><li>Diagnóstico da caixa</li><li>Reparação da caixa manual</li><li>Reparação da caixa automática</li><li>Troca de óleo da transmissão</li><li>Verificação da embraiagem</li><li>Diagnóstico de problemas de transmissão</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Sistema eléctrico</summary>
+                    <ul><li>Diagnóstico eléctrico</li><li>Bateria e sistema de carregamento</li><li>Alternador</li><li>Motor de arranque</li><li>Iluminação</li><li>Sensores e componentes eléctricos</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Ar condicionado</summary>
+                    <ul><li>Diagnóstico do sistema</li><li>Recarga de gás</li><li>Verificação de fugas</li><li>Manutenção do compressor</li><li>Limpeza e manutenção do sistema</li></ul>
+                </details>
+                <details class="service">
+                    <summary>Travões, suspensão e direcção</summary>
+                    <ul><li>Pastilhas</li><li>Discos</li><li>Amortecedores</li><li>Terminais de direcção</li><li>Braços de suspensão</li><li>Rótulas</li><li>Alinhamento e balanceamento</li></ul>
+                </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="checkup" class="section">
+            <div class="container">
+                <h2>Check-up do veículo</h2>
+                <p class="lead">Marque o que pretende verificar e agende pelo WhatsApp.</p>
+                <form id="checkup-form">
+                    <div class="checks">
+                    <label class="check"><input type="checkbox" name="check" value="Óleo e filtro do motor"><span>Óleo e filtro do motor</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Filtros de ar e combustível"><span>Filtros de ar e combustível</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Pastilhas e discos de travão"><span>Pastilhas e discos de travão</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Suspensão"><span>Suspensão</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Direcção"><span>Direcção</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Pneus, alinhamento e balanceamento"><span>Pneus, alinhamento e balanceamento</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Níveis de fluidos"><span>Níveis de fluidos</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Sistema de arrefecimento"><span>Sistema de arrefecimento</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Bateria e carregamento"><span>Bateria e carregamento</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Iluminação"><span>Iluminação</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Diagnóstico computadorizado"><span>Diagnóstico computadorizado</span></label>
+                    <label class="check"><input type="checkbox" name="check" value="Ar condicionado"><span>Ar condicionado</span></label>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" class="btn btn--primary">Agendar check-up pelo WhatsApp</button>
+                        <button type="button" id="check-all" class="btn btn--outline">Seleccionar tudo</button>
+                        <output id="check-count" aria-live="polite">0 itens seleccionados</output>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="processo" class="section section--light">
+            <div class="container">
+                <h2>Como funciona</h2>
+                <ol class="steps">
+                <li><h3>Contacte-nos</h3><p>Clique no botão do WhatsApp.</p></li>
+                <li><h3>Explique o problema</h3><p>Envie a marca, o modelo, o ano e descreva a avaria do automóvel.</p></li>
+                <li><h3>Avaliação do veículo</h3><p>A nossa equipa orienta o diagnóstico e o serviço necessário.</p></li>
+                <li><h3>Reparação</h3><p>Após a sua aprovação, realizamos o serviço.</p></li>
+                <li><h3>Entrega</h3><p>O veículo é entregue após a conclusão e verificação do serviço.</p></li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="porque" class="section">
+            <div class="container">
+                <h2>Porquê escolher a WAYAMA</h2>
+                <div class="cards">
+                <article class="card"><h3>Qualidade</h3><p>Trabalho cuidado em cada manutenção, diagnóstico e reparação.</p></article>
+                <article class="card"><h3>Segurança</h3><p>Atenção aos sistemas de que depende a sua segurança na estrada.</p></article>
+                <article class="card"><h3>Confiança</h3><p>O serviço só é realizado depois da sua aprovação.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <dialog id="avaliacao" class="modal" aria-labelledby="avaliacao-titulo">
+            <div class="modal__content">
+                <button type="button" class="modal__close" aria-label="Fechar">&times;</button>
+                     <h2 id="avaliacao-titulo">Solicitar uma avaliação</h2>
+                     <p class="lead">Os campos com * são obrigatórios.</p>
+                    <form id="quote-form" class="form">
+            <div class="field">
+                    <label for="nome">Nome *</label>
+                    <input id="nome" name="nome" type="text" required autocomplete="name">
+                </div>
+                <div class="field">
+                    <label for="telefone">Número de telefone *</label>
+                    <input id="telefone" name="telefone" type="tel" required autocomplete="tel">
+                </div>
+                <div class="field">
+                    <label for="marca">Marca do veículo *</label>
+                    <input id="marca" name="marca" type="text" required >
+                </div>
+                <div class="field">
+                    <label for="modelo">Modelo do veículo *</label>
+                    <input id="modelo" name="modelo" type="text" required >
+                </div>
+                <div class="field">
+                    <label for="ano">Ano</label>
+                    <input id="ano" name="ano" type="number" min="1950" max="2027">
+                </div>
+                <div class="field">
+                    <label for="km">Quilometragem</label>
+                    <input id="km" name="km" type="number" min="0">
+                </div>
+                <div class="field field--full">
+                    <label for="servico">Serviço</label>
+                    <select id="servico" name="servico"><option value="">Não sei / preciso de diagnóstico</option><option>Manutenção preventiva</option><option>Manutenção correctiva</option><option>Diagnóstico automóvel</option><option>Reparação de motor</option><option>Caixa de velocidades</option><option>Sistema eléctrico</option><option>Ar condicionado</option><option>Travões, suspensão e direcção</option></select>
+                </div>
+                <div class="field field--full">
+                    <label for="descricao">Descrição do problema *</label>
+                    <textarea id="descricao" name="descricao" rows="5" required></textarea>
+                </div>
+                <div class="field field--full">
+                    <label for="foto">Fotografia da avaria</label>
+                    <input id="foto" type="file" accept="image/*">
+                    <small>A fotografia não é enviada automaticamente: anexe-a na conversa do WhatsApp.</small>
+                    <img id="preview" alt="Pré-visualização da fotografia" hidden>
+                </div>
+                <button type="submit" class="btn btn--primary field--full">Enviar pelo WhatsApp</button>
+                </form>
+            </div>
+        </dialog>
+
+        <section id="sobre" class="section">
+            <div class="container container--narrow">
+                <h2>Sobre nós</h2>
+                <p>A WAYAMA Automóveis é uma oficina dedicada à manutenção, ao diagnóstico e à reparação automóvel. Trabalhamos para que o seu veículo se mantenha seguro e fiável, para que você não pare.</p>
+            </div>
+        </section>
+
+        <section id="galeria" class="section section--light">
+            <div class="container">
+                <h2>Galeria</h2>
+                <div class="gallery">
+                <figure class="photo">  <img src="img/oficina.jpg" alt="Oficina WAYAMA Automóveis" loading="lazy"> <figcaption>Oficina</figcaption></figure>
+                <figure class="photo"> <img src="img/motores.jpg" alt="Motores" loading="lazy"> <figcaption>Motores</figcaption> </figure>
+                <figure class="photo"><img src="img/veiculo.jpg" alt="Veículos" loading="lazy"><figcaption>Veículos</figcaption></figure>
+                <figure class="photo"><img src="img/equipamentos.jpg" alt="Equipamentos da oficina" loading="lazy"><figcaption>Equipamentos</figcaption></figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactos" class="section">
+    <div class="container">
+        <h2>Contactos</h2>
+        <dl class="contacts">
+            <div><dt>Localização</dt><dd id="c-morada">Morro Bento, Gamek – Luanda</dd></div>
+            <div><dt>Telefone</dt><dd id="c-telefone"><a href="tel:+244935982776">+244 935 982 776</a></dd></div>
+            <div><dt>WhatsApp</dt><dd id="c-whatsapp">Disponível em breve</dd></div>
+            <div><dt>E-mail</dt><dd id="c-email"><a href="mailto:geral@wayamaautomoveis.com">geral@wayamaautomoveis.com</a></dd></div>
+            <div><dt>Horário de atendimento</dt><dd id="c-horario">Segunda a sexta: 08h às 17h<br>Sábados e domingos: 09h às 16h</dd></div>
+        </dl>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <img src="img/logo.png" alt="WAYAMA Automóveis" width="150">
+            <p>&copy; <span id="year">2026</span> WAYAMA Automóveis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="#contactos" class="whatsapp-float" data-whatsapp="Olá! Gostaria de falar com a oficina.">WhatsApp</a>
+    <div id="toast" class="toast" role="status"></div>
 </body>
 </html>
